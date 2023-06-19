@@ -1,3 +1,3 @@
 curl -X POST -H "Content-Type: application/json" \
-    -d '{"lat": 10.55, "long": 27.89}' \
+    -d '{"lat": 44.140624, "long": -73.958437}' \
     localhost:8080/coords_to_tz
