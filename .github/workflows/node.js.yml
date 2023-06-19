@@ -26,7 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install --save-dev --save-exact prettier
     - run: npm ci
     - run: npm run build --if-present
     - run: npx prettier --write .
