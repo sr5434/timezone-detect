@@ -9,7 +9,7 @@
   "name": "timezone-detect",
   "description": "Detect timezones with express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./api/index.js",
   "scripts": {
     "test": "npx jest"
   },
